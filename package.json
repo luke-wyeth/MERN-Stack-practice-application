@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"currently no tests\"",
-    "start": "node index.js",
-    "build": "node index.js"
+    "start": "node server/index.js",
+    "build": "node server/index.js"
   },
   "keywords": [],
   "author": "",
