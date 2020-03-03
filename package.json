@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"currently no tests\"",
     "start": "node index.js",
-    "build": "no build yet"
+    "build": "node index.js"
   },
   "keywords": [],
   "author": "",
