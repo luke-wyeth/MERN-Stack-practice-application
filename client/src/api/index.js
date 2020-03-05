@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: (process.env.MONGODB_URI || 'http://localhost:')+(process.env.PORT || 8000)+'/api',
+    baseURL: ('0.0.0.0' || 'http://localhost:')+(process.env.PORT || 8000)+'/api',
 })
 
 export const insertMovie = payload => api.post(`/movie`, payload)
