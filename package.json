@@ -1,5 +1,6 @@
 {
   "name": "mern-app",
+  "main": "server/index.js",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -13,23 +14,24 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "mongoose": "^5.9.2",
-    "nodemon": "^2.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.2",
+    "nodemon": "^2.0.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-table": "^7.0.0-rc.16",
     "react-table-6": "^6.11.0",
-    "styled-components": "^5.0.1",
-    "concurrently": "^5.1.0"
+    "styled-components": "^5.0.1"
   }
 }
