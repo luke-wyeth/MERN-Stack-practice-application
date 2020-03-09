@@ -1,8 +1,11 @@
 const mongoose = require('mongoose')
 const mongoDB = require('mongodb')
 
+
+console.log(process.env.MONGODB_URI);
+
 mongoose
-    .connect(process.env.MONGODB_URI || 'mongodb://test_connection:test_connection1@ds243084.mlab.com:43084/heroku_02q9nlhn')
+    .connect((process.env.MONGODB_URI || 'mongodb://test_connection:test_connection1@ds039717.mlab.com:39717/heroku_41tpdz17'), { useMongoClient: true })
     .catch(e => {
         console.log(process.env.MONGODB_URI)
         console.error('Connection error', e.message)
